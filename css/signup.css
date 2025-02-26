@@ -1,0 +1,129 @@
+*{
+    font-family: "Poppins", serif;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ;
+}
+
+.singup-left img{
+    height: 75vh;
+    margin-top: 5vh;
+}
+
+
+.singup-right h3{
+    font-size: 35px;
+}
+
+.singup-right span{
+    color: grey;
+    margin-left: -130px;
+    margin-top: 20px;
+}
+
+.singup-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singup-right form input{
+    width: 35vw;
+    height: 6vh;
+    border: none;
+    border-bottom:2px solid grey;
+    margin-top: 3vh;
+    border-bottom-left-radius: 3px;
+}
+.singup-right form input:focus{
+    outline: none;
+}
+
+.singup-right form button[type="submit"]{
+    background-color: #DB4444;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    width: 35vw;
+    height: 6vh;
+}
+
+.singup-right form button[type="submit"]:hover{
+    background-color:  #db4441e2;
+   color: whitesmoke;
+}
+
+.g-login-icn img{
+    height: 30px ;
+    margin-right: 10px;
+}
+
+.g-login-icn img:hover{
+    transform: scale(1.08);
+}
+
+.g-login-icn{
+    border: 1px solid black;
+    padding: 1.5vh 10.8vw;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.g-login-icn:hover{
+    color: #DB4444;
+    text-decoration: none;
+}
+
+.singup-right form p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.singup-right form p .mx-2{
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2px;
+}
+
+.singup-right form p .mx-2:hover{
+    text-decoration: none;
+    color: #DB4444;
+    border-bottom: 1px solid #DB4444;
+}
+
+
+
+
+
+/* other screen size styling  */
+@media (max-width: 991.98px) {
+
+    .singup-right h3{
+        font-size: 28px;
+    }
+
+    .singup-right span{
+        color: grey;
+        margin-left: -80px;
+        margin-top: 10px;
+    }
+    
+    .singup-right form input{
+        width:30vw;
+    }
+
+    .singup-left img{
+        height: 70vh;
+        margin-top: 5vh;
+    }
+
+    .singup-right form button[type="submit"]{
+        width: 30vw;
+    }
+
+    .g-login-icn{
+        padding: 1.5vh 4.5vw;
+    }
+}
