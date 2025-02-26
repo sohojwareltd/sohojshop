@@ -117,6 +117,8 @@
     .singup-left img{
         height: 70vh;
         margin-top: 5vh;
+        width: 50vw;
+        object-fit: cover;
     }
 
     .singup-right form button[type="submit"]{
@@ -125,5 +127,9 @@
 
     .g-login-icn{
         padding: 1.5vh 4.5vw;
+    }
+
+    .singup-right form p{
+     font-size: 14px;
     }
 }
