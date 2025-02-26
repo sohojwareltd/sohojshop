@@ -45,7 +45,7 @@
     font-weight: bold;
     color: white;
     border-radius: 5px;
-    width: 35vw;
+    width: 10vw;
     height: 6vh;
 }
 
@@ -94,6 +94,16 @@
     border-bottom: 1px solid #DB4444;
 }
 
+.singup-right form .d-flex a{
+    font-size: 16px;
+    margin-top: 20px;
+    color: black;
+}
+
+.singup-right form .d-flex a:hover{
+    color: #DB4444;
+    text-decoration: underline;
+}
 
 
 
@@ -125,7 +135,7 @@
     }
 
     .singup-right form button[type="submit"] {
-        width: 30vw;
+    width: 10vw;
     }
 
     .g-login-icn {
@@ -140,32 +150,24 @@
 
 
 @media (max-width: 767.98px) {
-
-#singup{
-    flex-direction: column;
-}
-
-.singup-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.singup-left img {
-    height: 50vh;
-    width: 95vw;
-    /* object-fit: cover; */
-    margin: auto;
-}
-
+    .singup-left{
+        align-items: center;
+        display: flex;
+    }
+    .singup-left img {
+        height: 50vh;
+        width: 95vw;
+        /* object-fit: cover; */
+        margin: auto;
+    }
 
     .singup-right h3 {
         font-size: 28px;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .singup-right span {
-        margin-left: -105px;
+        margin-left: -95px;
         font-size: 13px;
     }
 
@@ -175,26 +177,40 @@
     }
 
     .g-login-icn {
-        padding: 1.5vh 5.5vw;
-        margin-top: -30px;
+        padding: 1.5vh 2.5vw;
     }
 
     .singup-right form p {
         font-size: 12px;
-        margin-top: -90;
     }
     .singup-right form button[type="submit"] {
-        width: 60vw;
-    }
-    .singup-right form{
-        display: flex;
+        width: 15vw;
+        font-size: 13px;
+        }
+
+    /* .singup-right form .d-flex{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    } */
+
+    #login{
+        flex-direction: column;
+        gap: 10%;
     }
-    .singup-right form input {
-        width: 60vw;
+
+    .singup-right form .d-flex a{
         font-size: 12px;
-        margin: auto;
+        margin-top: 20px;
+        color: black;
     }
+
+    .singup-right form .d-flex a:hover{
+        color: #DB4444;
+        text-decoration: underline;
+    }
+
+    .singup-right form input {
+        width: 70vw;
+        font-size: 12px;
+    }
+
 }

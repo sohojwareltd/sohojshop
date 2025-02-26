@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!--sing up page css link-->
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/login.css">
 
 </head>
 
@@ -149,35 +149,30 @@
     </header>
 
     <main>
-        <!--Start of sing up page -->
-        <section id="singup" class="d-flex">
+        <!--Start of log in page -->
+        <section id="login" class="d-flex">
             <div class="singup-left">
                 <img src="images/sing-up/dl.beatsnoop 1.png" alt="">
             </div>
             <div class="singup-right container">
-                <h3>Create an account</h3>
+                <h3>Log in to Exclusive</h3>
                 <span>Enter your details below</span>
                 <br>
                 <form action="">
 
-                    <input type="text" placeholder="Name">
-                    <br>
+
                     <input type="text" pattern="^\d{11}$|^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                         placeholder="Phone number or email address">
                     <br>
                     <input type="password" placeholder="Password">
                     <br>
                     <br>
-                    <button type="submit">Create an account</button>
+                    <div class="d-flex justify-content-between" class="login-btn">
+                        <button type="submit">Log in </button>
+                        <a href="" class="mx-2">Forget password?</a>
+                    </div>
                     <br>
                     <br>
-
-                    <a href="" class="g-login-icn"><img src="https://cdn-icons-png.flaticon.com/128/2702/2702602.png"
-                            alt=""> Sing up with Goolge</a>
-                    <br>
-                    <br>
-                    <br>
-                    <p>Already have an account? <a href="" class="mx-2">Log in</a></p>
                     <br>
                 </form>
             </div>
