@@ -32,7 +32,7 @@
     border: none;
     border-bottom: 2px solid grey;
     margin-top: 3vh;
-    border-bottom-left-radius: 3px;
+    /* border-bottom-left-radius: 3px; */
 }
 
 .singup-right form input:focus {
