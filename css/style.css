@@ -1,9 +1,14 @@
+body{
+  font-family: "Poppins", serif;
+}
 p,
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -691,3 +696,82 @@ h5 {
   /* background-color: black; */
 }
 
+.info-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.ico-sec{
+  background-color: #000000;
+  /* padding: 40px; */
+  font-size: 30px;
+  color: #fff;
+  padding:10px 15px;
+  border-radius: 50%;
+  border: 10px solid #a69fb0;
+  margin-bottom: 20px;
+}
+.mt-xxl{
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+.info-item h4{
+   font-size: 19px;
+   font-weight: 500;
+}
+.info-item p{
+  font-size: 13px;
+  margin-top: 5px;
+}
+footer{
+  background-color: #000000;
+  color: #fff;
+}
+.footer-item{
+  margin: 50px 0;
+}
+.footer-item h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-item p{
+  font-size: 12px;
+  margin-top: 15px;
+}
+.footer-item-subtitle{
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.footer-item ul{
+  margin-top: 10px;
+}
+
+.footer-item ul li{
+   list-style: none;
+   margin-top: 5px;
+   
+}
+.footer-item ul li a{
+  color: #fff;
+  font-size: 13px;
+
+}
+.footer-item ul li a:hover{
+   text-decoration: none;
+}
+.subscribe .form-control{
+  background-color: transparent;
+  border: 1px solid #fff !important;
+  border-right: none !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 14px;
+}
+.subscribe .input-group-text{
+  border-left: none !important;
+  background-color: transparent ;
+  border: 1.4px solid #ced4da;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
