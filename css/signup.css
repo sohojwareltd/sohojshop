@@ -46,7 +46,6 @@
     border-radius: 5px;
     width: 35vw;
     height: 6vh;
-
 }
 
 .singup-right form button[type="submit"]:hover{
@@ -92,4 +91,38 @@
     text-decoration: none;
     color: #DB4444;
     border-bottom: 1px solid #DB4444;
+}
+
+
+
+
+
+/* other screen size styling  */
+@media (max-width: 991.98px) {
+
+    .singup-right h3{
+        font-size: 28px;
+    }
+
+    .singup-right span{
+        margin-left: -50x;
+        margin-top: 10px;
+    }
+    
+    .singup-right form input{
+        width:30vw;
+    }
+
+    .singup-left img{
+        height: 70vh;
+        margin-top: 5vh;
+    }
+
+    .singup-right form button[type="submit"]{
+        width: 30vw;
+    }
+
+    .g-login-icn{
+        padding: 1.5vh 4.5vw;
+    }
 }
