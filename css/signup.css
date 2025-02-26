@@ -37,15 +37,18 @@
     outline: none;
 }
 
-.singup-right form input[type="submit"]{
+.singup-right form button[type="submit"]{
     background-color: #DB4444;
     border: none;
     font-weight: bold;
     color: white;
     border-radius: 5px;
+    width: 40vw;
+    height: 7vh;
+
 }
 
-.singup-right form input[type="submit"]:hover{
+.singup-right form button[type="submit"]:hover{
     background-color:  #db4441e2;
    color: whitesmoke;
 }
@@ -53,4 +56,22 @@
 .g-login-icn img{
     height: 30px ;
     margin-right: 10px;
+}
+
+.g-login-icn img:hover{
+    transform: scale(1.08);
+}
+
+.g-login-icn{
+    border: 1px solid black;
+    padding: 2vh 13.3vw;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.g-login-icn:hover{
+    color: #DB4444;
+    text-decoration: none;
 }
