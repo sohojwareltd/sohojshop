@@ -133,3 +133,25 @@
      font-size: 14px;
     }
 }
+
+
+
+@media (max-width: 767.98px) {
+    .singup-right h3{
+        font-size: 22px;
+    }
+
+    .singup-right span{
+        margin-left: -45px;
+        font-size: 13px;
+    }
+
+    .g-login-icn img{
+        height: 20px ;
+        margin-right: 5px;
+    }
+
+    .g-login-icn{
+        padding: 1vh 2.5vw;
+    }
+  }
