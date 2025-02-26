@@ -75,3 +75,20 @@
     color: #DB4444;
     text-decoration: none;
 }
+
+.singup-right form p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.singup-right form p .mx-2{
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2px;
+}
+
+.singup-right form p .mx-2:hover{
+    text-decoration: none;
+    color: #DB4444;
+    border-bottom: 1px solid #DB4444;
+}
