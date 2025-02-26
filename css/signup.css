@@ -1,5 +1,6 @@
 *{
     font-family: "Poppins", serif;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ;
 }
 
 .singup-left img{
@@ -29,9 +30,27 @@
     width: 40vw;
     height: 7vh;
     border: none;
-    border-bottom:2px solid black;
-    border-left: 2px solid black;
+    border-bottom:2px solid grey;
     margin-top: 3vh;
 }
+.singup-right form input:focus{
+    outline: none;
+}
 
+.singup-right form input[type="submit"]{
+    background-color: #DB4444;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
 
+.singup-right form input[type="submit"]:hover{
+    background-color:  #db4441e2;
+   color: whitesmoke;
+}
+
+.g-login-icn img{
+    height: 30px ;
+    margin-right: 10px;
+}
