@@ -27,11 +27,12 @@
 }
 
 .singup-right form input{
-    width: 40vw;
-    height: 7vh;
+    width: 35vw;
+    height: 6vh;
     border: none;
     border-bottom:2px solid grey;
     margin-top: 3vh;
+    border-bottom-left-radius: 3px;
 }
 .singup-right form input:focus{
     outline: none;
@@ -43,8 +44,8 @@
     font-weight: bold;
     color: white;
     border-radius: 5px;
-    width: 40vw;
-    height: 7vh;
+    width: 35vw;
+    height: 6vh;
 
 }
 
@@ -64,7 +65,7 @@
 
 .g-login-icn{
     border: 1px solid black;
-    padding: 2vh 13.3vw;
+    padding: 1.5vh 10.8vw;
     border-radius: 5px;
     text-decoration: none;
     color: black;
