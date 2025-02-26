@@ -49,7 +49,7 @@
 }
 
 .singup-right form button[type="submit"]:hover{
-    background-color:  #db4441e2;
+    background-color:  #aa1917;
    color: whitesmoke;
 }
 
@@ -112,6 +112,7 @@
     
     .singup-right form input{
         width:30vw;
+        font-size: 12px;
     }
 
     .singup-left img{
@@ -152,6 +153,11 @@
     }
 
     .g-login-icn{
-        padding: 1vh 2.5vw;
+        padding: 1.5vh 2.5vw;
     }
+
+    .singup-right form p{
+        font-size: 12px;
+       }
+
   }
