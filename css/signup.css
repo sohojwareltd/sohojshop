@@ -156,6 +156,7 @@
     width: 95vw;
     /* object-fit: cover; */
     margin: auto;
+    display: none;
 }
 
 
