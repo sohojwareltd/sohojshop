@@ -20,3 +20,8 @@
     text-decoration: none;
     color: rgba(58, 40, 40, 0.625);
 }
+
+.fa-trash{
+    margin: 2px 0px;
+    font-size: 14px;
+}
