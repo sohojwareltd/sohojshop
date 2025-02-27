@@ -1,0 +1,8 @@
+* {
+    font-family: "Poppins", serif;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+.owl-nav{
+    margin-right: 5%;
+}
