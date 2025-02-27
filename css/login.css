@@ -94,13 +94,13 @@
     border-bottom: 1px solid #DB4444;
 }
 
-.singup-right form .d-flex a{
+.singup-right form .d-flex a {
     font-size: 16px;
     margin-top: 20px;
     color: black;
 }
 
-.singup-right form .d-flex a:hover{
+.singup-right form .d-flex a:hover {
     color: #DB4444;
     text-decoration: underline;
 }
@@ -135,7 +135,7 @@
     }
 
     .singup-right form button[type="submit"] {
-    width: 10vw;
+        width: 10vw;
     }
 
     .g-login-icn {
@@ -150,24 +150,26 @@
 
 
 @media (max-width: 767.98px) {
-    .singup-left{
+    .singup-left {
         align-items: center;
         display: flex;
     }
+
     .singup-left img {
         height: 50vh;
         width: 95vw;
         /* object-fit: cover; */
         margin: auto;
+        display: none;
     }
 
     .singup-right h3 {
-        font-size: 28px;
+        font-size: 24px;
         margin-top: 40px;
     }
 
     .singup-right span {
-        margin-left: -95px;
+        margin-left: 5px;
         font-size: 13px;
     }
 
@@ -183,27 +185,28 @@
     .singup-right form p {
         font-size: 12px;
     }
+
     .singup-right form button[type="submit"] {
         width: 15vw;
         font-size: 13px;
-        }
+    }
 
     /* .singup-right form .d-flex{
         flex-direction: column;
     } */
 
-    #login{
+    #login {
         flex-direction: column;
         gap: 10%;
     }
 
-    .singup-right form .d-flex a{
+    .singup-right form .d-flex a {
         font-size: 12px;
         margin-top: 20px;
         color: black;
     }
 
-    .singup-right form .d-flex a:hover{
+    .singup-right form .d-flex a:hover {
         color: #DB4444;
         text-decoration: underline;
     }
