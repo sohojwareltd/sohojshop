@@ -1,6 +1,6 @@
 * {
     font-family: "Poppins", serif;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
 }
 
 .owl-nav{
@@ -18,7 +18,8 @@
 
 .move-blog:hover{
     text-decoration: none;
-    color: rgba(58, 40, 40, 0.625);
+    color: black;
+    background-color: rgba(60, 60, 60, 0.070);
 }
 
 .fa-trash{
@@ -28,7 +29,7 @@
 
 .wish-justForyou span{
     border-radius: 7px;
-    height: 25px;
+    height: 20px;
     width: 10px;
     margin-right: 5px;
     border: #DB4444 10px solid;
