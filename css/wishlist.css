@@ -26,3 +26,9 @@
     font-size: 14px;
 }
 
+.wish-justForyou span{
+    border-radius: 10px;
+    height: 30px;
+    width: 10px;
+    background-color: #DB4444;
+}
