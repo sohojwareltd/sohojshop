@@ -27,8 +27,9 @@
 }
 
 .wish-justForyou span{
-    border-radius: 10px;
-    height: 30px;
+    border-radius: 7px;
+    height: 25px;
     width: 10px;
-    background-color: #DB4444;
+    margin-right: 5px;
+    border: #DB4444 10px solid;
 }
