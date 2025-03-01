@@ -34,3 +34,16 @@
     margin-right: 5px;
     border: #DB4444 10px solid;
 }
+
+@media (max-width: 991.98px) {
+    .owl-nav{
+        margin-right: 2%;
+    }
+
+    .wishList{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+}
