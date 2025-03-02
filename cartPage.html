@@ -25,6 +25,10 @@
     <!--wishlist css link-->
     <link rel="stylesheet" href="css/wishlist.css">
 
+
+    <!--cart page style css-->
+    <link rel="stylesheet" href="css/cartPage.css">
+
 </head>
 
 <body>
@@ -145,25 +149,62 @@
             </div>
         </nav>
         <!-- END nav -->
-	</header>
+    </header>
 
     <!---main content of the page is starts now-->
-<main>
-    <section aria-label="breadcrumb" class="bg-light">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-secondary">Home</a></li>
-          <li class="breadcrumb-item active text-dark" aria-current="page">Cart</li>
-        </ol>
-      </section>
+    <main>
+        <section aria-label="breadcrumb" class="bg-transparent">
+            <ol class="breadcrumb bg-transparent fw-bold">
+                <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-secondary">Home</a>
+                </li>
+                <li class="breadcrumb-item active text-dark" aria-current="page">Cart</li>
+            </ol>
+        </section>
+
+        <!-- cart table is here-->
+        <section class="container" id="cart-table">
+            <table class="w-100">
+                <thead>
+                    <td>
+                        Product
+                    </td>
+                    <td>
+                        Price
+                    </td>
+                    <td>
+                        Quantity
+                    </td>
+                    <td>
+                        Subtotal
+                    </td>
+                </thead>
+                <br>
+                <tr>
+                    <td class="d-flex">
+                        <img src="" alt="">
+                        <span>LCD Monitor</span>
+                    </td>
+                    <td>
+                        $650
+                    </td>
+                    <td>
+                        <input type="number" class="w-25">
+                    </td>
+                    <td>
+                        $650
+                    </td>
+                </tr>
+            </table>
+        </section>
 
 
-</main>
+    </main>
 
 
 
 
 
-    
+
 
 
     <footer class="container-fluid">
@@ -176,8 +217,7 @@
                     <div class="col-10 p-0 mt-3 input-group subscribe mb-3">
                         <input type="text" class="form-control" placeholder="Enter your email"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <button class="input-group-text" id="basic-addon2"><img src="images/right.png"
-                                alt=""></button>
+                        <button class="input-group-text" id="basic-addon2"><img src="images/right.png" alt=""></button>
                     </div>
                 </div>
                 <div class="col-md-6">

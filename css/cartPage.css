@@ -1,0 +1,14 @@
+* {
+    font-family: "Poppins", serif;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+#cart-table table thead td{
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+
+#cart-table table thead td{
+    padding: 10px 0px;
+}
