@@ -41,9 +41,10 @@
     }
 
     .wishList{
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
         align-items: center;
+        font-size: 12px;
     }
 
 }
