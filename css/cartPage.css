@@ -10,7 +10,11 @@
 
 
 #cart-table table thead td{
-    padding: 10px 0px;
+    padding: 20px 0px;
+}
+
+#cart-table table tr td{
+    padding: 20px 0px;
 }
 
 #cart-table table tr td img{
