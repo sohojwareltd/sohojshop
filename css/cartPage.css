@@ -60,6 +60,14 @@
 .coupon-apply input , button{
     height: 6vh;
 }
+.coupon-apply input {
+    border: none;
+    padding-left: 10px;
+    border-bottom: #d52323 1px solid;
+}
+.coupon-apply input:focus{
+    outline: none;
+}
 
 .coupon-apply button{
     background-color: #DB4444;
@@ -72,6 +80,10 @@
     background-color: #d52323;
 }
 
+.coupon-apply button:focus{
+    outline: none;
+}
+
 .cart-total{
     border-radius: 5px !important;
 }
@@ -81,6 +93,7 @@
     height: 6vh;
     margin-bottom: 15px;
 }
+
 
 
 
