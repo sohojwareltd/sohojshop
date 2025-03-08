@@ -49,3 +49,21 @@
 }
 
 
+.return-update-cart a{
+  border-radius: 4px; 
+}
+
+.return-update-cart a:hover{
+    background-color: rgba(175, 170, 170, 0.182);
+}
+
+.coupon-apply input , button{
+    height: 6vh;
+}
+
+.coupon-apply button{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
