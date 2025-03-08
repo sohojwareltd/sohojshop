@@ -67,3 +67,7 @@
     border: none;
     border-radius: 5px;
 }
+
+.coupon-apply button:hover{
+    background-color: #d52323;
+}
