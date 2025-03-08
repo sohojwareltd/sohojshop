@@ -794,6 +794,11 @@ footer {
   color: #fff;
   font-size: 13px;
 }
+
+footer img{
+  cursor: pointer;
+}
+
 .footer-item ul li a:hover {
   text-decoration: none;
 }
