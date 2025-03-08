@@ -20,7 +20,9 @@
 #cart-table table tr td img{
     height: 50px;
 }
-
+.table td{
+    border-top: none;
+}
 
 #cart-table table tr td input{
     height: 35px;
