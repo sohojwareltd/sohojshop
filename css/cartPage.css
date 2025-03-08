@@ -3,10 +3,6 @@
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
 }
 
-#cart-table table thead td{
-    /* font-weight: bold; */
-    font-size: 20px;
-}
 
 
 #cart-table table thead td{
@@ -63,7 +59,7 @@
 .coupon-apply input {
     border: none;
     padding-left: 10px;
-    border-bottom: #d52323 1px solid;
+    border-bottom: grey 1px solid;
 }
 .coupon-apply input:focus{
     outline: none;
