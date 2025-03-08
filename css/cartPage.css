@@ -71,3 +71,56 @@
 .coupon-apply button:hover{
     background-color: #d52323;
 }
+
+.cart-total{
+    border-radius: 5px !important;
+}
+
+.cart-total div{
+    border-bottom: 1px solid black;
+    height: 6vh;
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 767.98px) {
+ .coupon-cart-total{
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .coupon-apply{
+    width: 90vw !important;
+ }
+ .coupon-apply button{
+    font-size: 14px;
+    padding: 5px 10px !important;
+ }
+
+ .coupon-apply input{
+    width: 55vw !important;
+ }
+
+ .cart-total{
+    width: 90vw !important;
+    border-radius: 5px !important;
+ }
+
+ #cart-table table tr td img{
+    width:  30px !important;
+    height:  30px !important;
+}
+
+#cart-table table tr td{
+    font-size: 14px;
+}
+
+#cart-table table tr td input{
+    width: 40px;
+}
+
+.return-update-cart a{
+    font-size: 14px;
+}
+}
