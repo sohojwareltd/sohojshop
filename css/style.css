@@ -198,7 +198,7 @@ li {
   }
 
   .carousel-item img{
-    height: 40vh;
+    height: 30vh;
   }
 }
 .sohoj-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -235,6 +235,9 @@ li {
   .sohoj-navbar-light .navbar-nav > .nav-item.cta > a {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .category-menu {
+    height: 60vh;
   }
 }
 @media (max-width: 991.98px) {
