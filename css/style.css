@@ -68,6 +68,11 @@ li {
   border-radius: 50%;
 }
 
+.new-arrival{
+  display: flex;
+  gap: 20px;
+}
+
 .carousel-item img{
   height: 60vh;
 }
@@ -119,6 +124,26 @@ li {
   .sohoj-navbar-light .navbar-brand {
     margin-bottom: 20px;
   }
+
+  .new-arrival{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .new-arrival .featured-image{
+   width: 90vw;
+   height: 50vh;
+   margin: auto;
+   margin-bottom: 10px;
+  }
+  .new-arrival .featured-second{
+    width: 90vw;
+    margin-left: 3px !important;
+   }
+   .new-arrival .featured-third{
+    width: 90vw !important;
+    margin-left: 3px !important;
+   }
 }
 @media (max-width: 991.98px) {
   .sohoj-navbar-light .navbar-nav {
