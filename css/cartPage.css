@@ -132,4 +132,9 @@
 .return-update-cart a{
     font-size: 14px;
 }
+
+.cart-total a{
+    font-size: 14px;
+    width: 70% !important;
+}
 }
