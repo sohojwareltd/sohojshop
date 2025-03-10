@@ -159,17 +159,17 @@
         <!-- cart table is here-->
         <section class="container" id="cart-table">
             <table class="table">
-                <tr>
+                <thead class="border">
                     <td scope="row"><span style="color: transparent;">~</span> Products <span
                             style="color: transparent;">~~~~~~~</span> </td>
                     <td scope="col">Price</td>
                     <td scope="col">Quantity <span></span></td>
-                    <td scope="col" class="text-center">Subtotal</td>
-                </tr>
-            </table>
+                    <td scope="col" class="">Subtotal</td>
+                </thead>
+            <!-- </table>
             <br>
-            <table class="table">
-                <tr>
+            <table class="table"> -->
+                <tr class="border">
                     <td><img style="width: 50px;margin-right: 10px;"
                             src="https://www.khancomputers.net/img/2020/04/Dell-SE2419H-24-Inch-IPS-LCD-Monitor_1-300x300.jpg"
                             alt="">LCD Monitor</td>
@@ -177,10 +177,10 @@
                     <td><input type="number" value="1"></td>
                     <td>550$</td>
                 </tr>
-            </table>
+            <!-- </table>
             <br>
-            <table class="table">
-                <tr>
+            <table class="table"> -->
+                <tr class="border">
                     <td scope="row"><img style="width: 50px;margin-right: 10px;"
                             src="https://s.alicdn.com/@sc04/kf/H300147682d8840dd8bf3419e4be144acn.png_720x720q50.png"
                             alt="">H1 Gamepad</td>
@@ -203,7 +203,7 @@
                 <input type="text" class="mr-2 w-50" placeholder="Coupon Code">
                 <button class="px-4">Apply Coupon</button>
             </div>
-            <div class="cart-total w-50 p-4 border border-dark">
+            <div class="cart-total w-50 p-4 border border-dark text-center">
                 <h4>Cart Total</h4>
                 <br>
                 <div class="d-flex justify-content-between">
@@ -214,10 +214,12 @@
                     <span>shipping:</span>
                     <span>Free</span>
                     </div>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between border-0">
                         <span>Total:</span>
                         <span>$1750</span>
                         </div>
+                        <br>
+                        <a href="" class="btn w-50  m-auto px-4 py-2 btn-danger my-4">Process to Checkout</a>
             </div>
         </div>
         <br>
