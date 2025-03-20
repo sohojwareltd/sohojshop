@@ -65,7 +65,7 @@
 
 .g-login-icn {
     border: 1px solid black;
-    padding: 1.5vh 10.8vw;
+    /* padding: 1.5vh 10.8vw; */
     border-radius: 5px;
     text-decoration: none;
     color: black;
@@ -128,9 +128,9 @@
         width: 30vw;
     }
 
-    .g-login-icn {
+    /* .g-login-icn {
         padding: 1.5vh 4.5vw;
-    }
+    } */
 
     .singup-right form p {
         font-size: 14px;
